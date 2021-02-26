@@ -1,0 +1,657 @@
+/**********/
+/* RESET */
+/*********/
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a:link, a:visited, a:active {
+    color: #000000;
+	text-decoration:none;
+   
+}
+
+a:hover {
+	text-decoration: none; 
+	color:#000000; 
+	
+}
+
+#teste{
+    animation: gradient 10s ease infinite;
+    background: linear-gradient(-45deg, #23a6d5, #f8ff69 ) no-repeat;
+    background-size: 300% 300%;
+    font-family: verdana;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 300px;
+    width: inherit;
+    font-size: 9em;
+}
+
+@keyframes gradient{
+    0%{
+        background-position: 0 50%;
+    }
+    
+    50%{
+        background-position: 100% 50%;
+    }
+    
+    100%{
+        background-position: 0 50%;
+    }
+}
+
+a:link, a:visited, a:active {
+    color: #000000;
+	text-decoration:none;
+   
+}
+
+a:hover {
+	text-decoration: none; 
+	color:#000000; 
+	
+}
+
+/*
+h1{
+    width: inherit;
+    height: 50px;
+    background-color: #51adbd;
+    font-family: verdana;
+    font-size: 1.5em;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-top: 10px;
+    padding-left: 10px;
+    
+}
+*/
+h3{
+    width: inherit;
+    font-family: verdana, calibri;
+    font-size: 1.1em;
+    text-align: center;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+/*
+p{
+    width: inherit;
+    min-height: 20px;
+    height: auto;
+    overflow: hidden;
+    font-family: verdana, calibri;
+    font-size: 1.1em;
+    line-height: 1.4;
+}
+*/
+.conteudo{
+    width: 1300px;
+    height: inherit;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#containerMenu{
+    width: inherit;
+    height: 50px;
+  
+    z-index: 999;
+    position: fixed;
+   
+}
+/***************/
+/*Área da logo*/
+/***************/
+
+#logo{
+    width: 150px;
+    height: inherit;
+    background-image: url(../IMAGENS/ianes.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+/***************/
+/*Área do Menu*/
+/***************/
+#menu{
+    width: inherit;
+    height: inherit;
+    background-color: #1474b8;
+    float: left;  
+    
+}
+
+#listaMenu{
+    width: inherit;
+    height: inherit;
+    margin-left: 260px;
+    
+}
+
+.itensMenu{
+    width: 160px;
+    height: inherit;
+    color: #000000;
+    font-family: verdana;
+    font-size: 1.1em;
+    text-align: center;
+    text-transform: uppercase;
+    list-style: none;
+    float: left;
+    padding-top: 13px;
+    margin-left:15px;;
+    color: #000000;
+
+}
+
+
+.itensMenu:hover{
+    background-color: #ffffff;
+    transition: 1s;
+    cursor: pointer;
+    color: #000000;
+}
+/**********/
+/*SUB MENU*/
+/**********/
+
+#subMenu{
+    width: inherit;
+    height: inherit;
+
+    display: none;
+    margin-top: 15px;
+    
+}
+
+#subMenuItem2:hover{
+    background-color: #ffffff;
+    transition: 1s;
+    cursor: pointer;
+    color: #000000;
+}
+
+#subMenuItem:hover{
+    background-color: #ffffff;
+    transition: 1s;
+    cursor: pointer;
+    color: #000000;
+}
+
+#subMenuItem{
+    width: 200px;
+    height: 60px;
+    color: #000000;
+    font-family: verdana;
+    font-size: 0.8em;
+    text-align: left;
+    text-transform: uppercase;
+    list-style: none;
+    float: left;
+    background-color: #1474b8;
+    
+    padding-top: 15px;
+    padding-left: 10px;
+    
+    color: #ffffff;
+}
+
+#subMenuItem2{
+    width: 200px;
+    height: 50px;
+    color: #000000;
+    font-family: verdana;
+    font-size: 0.8em;
+    text-align: left;
+    text-transform: uppercase;
+    list-style: none;
+    float: left;
+    background-color: #1474b8;
+    
+    padding-top: 20px;
+    padding-left: 10px;
+    
+    color: #ffffff;
+}
+
+.itensMenu:hover > #subMenu{
+    display: block;
+}
+
+/**************/
+/*Espaço menu*/
+/************/
+
+#espacoMenu{
+    width: inherit;
+    height: 50px;
+}
+
+
+/**************************************/
+/***** Imagem de fundo com texto *****/
+/*************************************/
+
+/* OBS: Arrumar essa parte,falta coisa */
+
+#ImagemDeFundo{
+    width: inherit;
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../IMAGENS/ti.jpg);
+   
+}
+
+#TextoDeFundo{
+    width: 400px;
+    height: 100px;
+    background-color:RGBA(0,0,0,0.7);
+    color: #ffffff;
+    margin-left: 450px;
+    margin-top: 100px;
+    float: left;
+    padding-top: 10px;
+}
+
+#ConfigText{
+    font-size: 2em;
+    text-align: center;
+}
+
+/************************/
+/***** Quem Somos? *****/
+/***********************/
+
+#TituloQuemSomos{
+    width: inherit;
+    height: 60px;
+    background-color: #51adbd;
+    text-align: center;
+    
+   font-family: verdana; 
+    font-size: 1.0em;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+#TextQuemSomos{
+    width:inherit;
+    height: 150px;
+    background-color: #e8e297;
+    text-align: center;
+    padding-top: 5px;
+     font-family: verdana, calibri;
+}
+
+
+
+/******************************************/
+/***** Propostas e metodos de ensino *****/
+/*****************************************/
+
+#CaixaTitulos{
+    width: inherit;
+    height: 60px;
+    background-color: #e8e297;
+   
+}
+
+#TituloProposta{
+    width: 50%;
+    height: 60px;
+    background-color: #51adbd;
+    text-align: center;
+   
+    float: left;
+     font-family: verdana; 
+    font-size: 0.8em;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-top: 10px;
+    padding-left: 10px;
+    
+}
+
+#TituloMetodosDeEnsino{
+     width: 50%;
+    height: 60px;
+    background-color: #51adbd;
+    text-align: center;
+    
+    float: left;
+    
+     font-family: verdana; 
+    font-size: 0.8em;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-top: 10px;
+    padding-left: 10px;
+    
+   
+}
+
+
+/* Textos - Propostas e Medotos de Ensino */
+
+#CaixaText{
+    width: inherit;
+    height: 300px;
+    background-color: #e8e297;
+    
+}
+
+#TextProposta{
+    width: 300px;
+    height: inherit;
+    
+    float: left;
+    margin-left: 170px;
+    text-align: center;
+    padding-top: 50px;
+    font-family: verdana, calibri;
+}
+
+#TextMetodologiaDeEnsino{
+    width: 300px;
+    height: inherit;
+  
+    float: left;
+    margin-left: 365px;
+    text-align: center;
+    padding-top: 50px;
+    font-family: verdana, calibri;
+}
+
+/********************************************/
+/***** Nossa Missão, Visão, Conquistas *****/
+/*******************************************/
+
+#CaixaTitulosMissao{
+    width: inherit;
+    height: 60px;
+    background-color: #51adbd;
+    
+     font-family: verdana; 
+    font-size: 0.8em;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-top: 10px;
+    padding-left: 10px;
+    
+}
+
+.Titulos{
+    width: 300px;
+    height: inherit;
+    background-color: #51adbd;
+    float: left;
+    text-align: center;
+    padding-top: 10px;
+    margin-left: 110px;
+    font-family: verdana;
+    font-size: 1.0em;
+    margin-top: -10px;
+}
+
+#CaixasTextosMissao{
+    width: inherit;
+    height: 335px;
+    background-color: #e8e297;
+    
+}
+
+
+#textosMissao{
+    width: 350px;
+    height: 200px;
+   
+    margin-top: 100px;
+    float: left;
+    margin-left: 80px;
+    text-align: center;
+    font-family: verdana, calibri;
+}
+
+#textosVisao{
+    width: 350px;
+    height: 200px;
+   
+    margin-top: 100px;
+    float: left;
+    margin-left: 70px;
+    text-align: center;
+    font-family: verdana, calibri;
+}
+
+#Conquistas{
+    width: 350px;
+    height: 300px;
+   
+    float: left;
+    margin-left: 60px;
+    margin-top: 5px;
+    font-family: verdana, calibri;
+}
+
+#Listas{
+    width: inherit;
+    height: inherit;
+    margin-left: 30px;
+    font-size: 20px;
+    font-family: verdana;
+}
+
+/*************************************/
+/*****   Comece hoje mesmo!!    *****/
+/************************************/
+
+#HojeMesmo{
+    width: inherit;
+    height: 50px;
+    background-color: #1475b8;
+    
+    text-align: center;
+    padding-top: 15px;
+}
+
+#Compromisso{
+   width: inherit;
+    height: 100px;
+    background-color:#51adbd ;
+    text-align: center;
+    padding-top: 40px;
+}
+
+/********************/
+/***** Rodapé  *****/
+/******************/
+
+#CaixaPrincipalRodape{
+    width:inherit;
+    height: 300px;
+
+}
+ 
+#CaixaSecundariaRodape{
+    width:inherit;
+    height:inherit;
+    background-color: #1474b8;
+}
+ 
+.CaixasRodape{
+    width: 431px;
+    height:inherit;
+    background-color: #1474b8; 
+    float: right;
+    margin-bottom: 10px;
+}
+ 
+.linha{
+     height: 200px;
+     border-right: 3px solid black;
+     float: right;
+     margin-top: 50px;
+
+}
+ 
+/****************************/
+/****** Redes Sociais ******/
+/***************************/
+ 
+#RedesSociais{
+    width:160px;
+    height:25px;
+
+    margin-top: 60px;
+    
+    font-family: verdana;
+    text-align: center; 
+    font-size: 1.2em;
+    color: #ffffff;
+    
+    margin-left: 65px;
+}
+ 
+#FotoRedeSocial1{
+    width:70px;
+    height:70px;
+    background-image: url(../IMAGENS/face.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    float:left;
+    margin-left: 18px;
+    margin-top: 10px;
+}
+
+#FotoRedeSocial2{
+    width:70px;
+    height:70px;
+    background-image: url(../IMAGENS/twitter.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    float:left;
+    margin-left: 18px;
+    margin-top: 10px;
+    
+}
+
+#FotoRedeSocial3{
+    width:70px;
+    height:70px;
+    background-image: url(../IMAGENS/insta.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    float:left;
+    margin-left: 18px;
+    margin-top: 10px;
+}
+ 
+#centralizacao{
+    margin-left: 80px;
+}
+
+.seguir{
+    margin-top: 70px;
+    margin-left: 5px;
+}
+ 
+/****************************/
+/******** Contatos **********/
+/****************************/
+.Contatos{
+    width:250px;
+    height: 25px;
+   
+    margin-top: 28px;
+    margin-left: 100px;
+    
+  font-family: verdana;
+    text-align: center; 
+    font-size: 1em;
+    color: #ffffff;
+}
+ 
+/*******************************/
+/* Nome, logo, e alguns textos */
+/******************************/
+ 
+#NomeRodape{
+    width: 200px;
+    height: 25px;
+
+    margin-top: 10px;
+    margin-left: 120px;
+    
+     font-family: verdana;
+    text-align: center; 
+    font-size: 1.4em;
+    color: #ffffff;
+}
+ 
+#textoComico{
+    width: 300px;
+    height: 20px;
+   
+    margin-top: 20px;
+    margin-left: 65px;
+    
+     font-family: verdana;
+    text-align: center; 
+    font-size: 1em;
+    color: #ffffff;
+}
+ 
+#LogoRodape{
+    width: 320px;
+    height: 120px;
+    background-image: url(../IMAGENS/ianes.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    margin-top: 30px;
+    margin-left: 55px;
+}
+ 
+#Reservado{
+    width: inherit;
+    height: 20px;
+  
+    margin-top: 35px;
+    margin-left: 55px;
+    
+     font-family: verdana;
+    
+    font-size: 1em;
+    color: #ffffff;
+}
+
+

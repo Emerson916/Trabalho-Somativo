@@ -1,0 +1,788 @@
+/**********/
+/* RESET */
+/*********/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+a:link, a:visited, a:active {
+    color: #000000;
+	text-decoration:none;
+   
+}
+
+a:hover {
+	text-decoration: none; 
+	color:#000000; 
+	
+}
+
+.conteudo{
+    width: 1300px;
+    height: inherit;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#conteinerMenu{
+    width: inherit;
+    height: 100px;
+    background-color: #1474b8;
+    margin-left:inherit;
+    margin-right: inherit;
+}
+
+
+/**********************/
+/*Área da logo e nome */
+/**********************/
+
+#logo{
+    width: 250px;
+    height: 80px ;
+   
+    float: left;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+#logoIanes{
+    width: inherit;
+    height: inherit;
+    background-image: url(../IMAGENS/ianes.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+#nome{
+    width: 250px;
+    height: 70px;
+    
+    float: left;
+    margin-top: 10px;
+    margin-left: 700px;
+    padding-top: 15px;
+    padding-left: 70px;
+}
+
+/***************************************/
+/***** Caixa de fundo das ComboBox *****/
+/***************************************/
+
+#CaixaDeFundoUM{
+    width:inherit;
+    height: 100px;
+    background-color: #e8e297;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/***************************/
+/* Primeira opção de curso */
+/***************************/
+
+.Titulos{
+    width: 1300px;
+    height: 50px;
+    background-color: #51adbd;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-left: auto;
+    margin-right: auto;
+   
+
+}
+ /********************************/
+ /*** Caixa de trás da ComboBox **/
+ /********************************/
+#CaixaComboBox{
+    width:inherit;
+    height: inherit;
+
+}
+
+.ConteinerTitulo{
+    width:inherit;
+    height: 30px;
+    background-color: #1474b8;
+    
+}
+
+/***************************************************/
+/**  Titulos - "Unidade" , "Curso" , "Turno",  *****/
+/***************************************************/
+
+/* "Unidade" */
+
+#TituloComboBox{
+    width:120px;
+    height: inherit;
+    float: left;
+    margin-left: 20px;
+    margin-top: 5px;
+    color: white;
+}
+
+/* "Curso" */
+
+#TituloComboBox2{
+    width: 120px;
+    height: inherit;
+    float: left;
+    margin-left: 405px;
+    margin-top: 5px;
+    color: white;
+}
+
+/* "Turno" */
+
+#TituloComboBox3{
+    width: 120px;
+    height: inherit;
+    float: left;
+    margin-left: 300px;
+    margin-top: 5px;
+    color: white;
+}
+
+/* Container da ComboBox */
+
+#ContainerComboBox{
+    width:inherit;
+    height: 50px;
+  
+    margin-top: 10px;
+}
+/***********************************/
+/***** Caixa atás dos nomes *******/
+/**********************************/
+
+.ComboBox{
+    width: inherit;
+    height: 20px;
+    
+
+}
+
+/*************************************/
+/******* ComboBox - Estrutura *******/
+/************************************/
+
+#Escolar{
+    width:500px;
+    height: 30px;
+    border: 0 none;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+    margin-left: 15px;
+    margin-top: 10px;
+    float: left;
+}
+
+#Cursos{
+    width: 400px;
+    height: 30px;
+    border: 0 none;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+    margin-left: 30px;
+    float: left;
+    margin-top: -10px;
+}
+
+#Turno{
+    width: 200px;
+    height: 30px;
+    border: 0 none;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+    margin-left: 965px;
+    margin-top: -30px;
+    float: left;
+}
+
+/***************************************/
+/***** Parte de "Dados Pessoais"   *****/
+/***************************************/
+
+.Titulo{
+    width: 1300px;
+    height: 50px;
+    background-color: #51adbd;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+/*****************************************/
+/****** Conteudo dos Dados Pessoais ******/
+/*****************************************/
+
+/* Coinfigurações do "Nome" */
+
+#ContainerCaixasDeDados{
+    width:inherit;
+    height: 500px;
+    background-color: aqua;
+    
+}
+
+#CaixaNome {
+    width:inherit;
+    height: 100px;
+    background-color: #e8e297; 
+}
+
+#ConfigNome{
+    padding-left: 20px;
+    padding-top: 5px;
+    color: white;
+}
+
+#boxTexName{
+    width:inherit;
+    height: 30px;
+    margin-top: 20px;
+
+
+}
+
+#CaixaDeTexto{
+    width: 1250px;
+    height: 30px;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+    margin-left: 20px;
+}
+
+/* Configurações do Endereço : "cep" , "numero" etc.. */
+
+#CaixaEndereco{
+    width: inherit;
+    height: 100px;
+    background-color:#e8e297;
+
+}
+
+#ConfigEnd{
+   padding-top: 5px;
+
+}
+
+#ConfigCEP{
+    float: left;
+    color: white;
+    margin-left: 25px;
+}
+
+#ConfigEn{
+    float: left;
+    color: white;
+    margin-left: 215px;
+}
+
+#ConfigNum{
+    float: left;
+    color: white;
+    margin-left: 630px;
+}
+
+/**********************************/
+/****** Caixa De interação  ******/
+/*********************************/
+
+#boxTextEnd{
+    width: inherit;
+    height: 30px;
+    padding-top: 20px;
+
+}
+
+#CaixaTextCEP{
+    width: 250px;
+    height: 30px;
+    float: left;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+    margin-left: 20px;
+}
+
+#CaixaTextEnd{
+    width: 700px;
+    height: 30px;
+    float: left;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+    margin-left: 20px    
+}
+
+#CaixaTextNum{
+    width: 250px;
+    height: 30px;
+    float: left;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+    margin-left: 20px;
+}
+
+/*************************************************/
+/***** Complemento, bairro, cidade e Estado  *****/
+/*************************************************/
+
+#CaixaComplemento{
+    width: inherit;
+    height: 100px;
+    background-color:#e8e297;
+    
+}
+
+#ConfigComple{
+    float: left;
+    color: white;
+    margin-left: 20px;
+    padding-top: 5px;
+}
+
+#ConfigBairro{
+    float: left;
+    color: white;
+    margin-left: 195px;
+    padding-top: 5px;
+}
+
+#ConfigCity{
+    float: left;
+    color: white;
+    margin-left: 250px;
+    padding-top: 5px;
+}
+
+#ConfigEstado{
+    float: left;
+    color: white;
+    margin-left: 245px;
+    padding-top: 5px;
+}
+
+/****************************************/
+/***** Caixa de textos - Complemento*****/
+/****************************************/
+
+#BoxTextComple{
+    width: inherit;
+    height: 30px;
+    padding-top: 20px;
+    
+}
+
+#CaixaTexComple{
+    width: 300px;
+    height: 30px;
+    float: left;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+    margin-left: 20px;
+}
+
+#CaixaTexBairro{
+    width: 300px;
+    height: 30px;
+    float: left;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+    margin-left: 20px;
+}
+
+#CaixaTexCity{
+    width: 300px;
+    height: 30px;
+    float: left;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+    margin-left: 20px;
+}
+
+#Estados{
+    width: 200px;
+    height: 30px;
+    float: left;
+    border: 0 none;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+    margin-left: 20px;
+}
+
+/*****************************************/
+/***** Parte do CPF, TITULOS         *****/
+/****************************************/
+
+#CaixaCPF{
+    width: inherit;
+    height: 100px;
+    background-color:#e8e297;
+   
+}
+
+#ConfigNasc{
+    float: left;
+    color: white;
+    margin-left: 20px;
+    padding-top: 5px;
+}
+
+#ConfigSexo{
+    float: left;
+    color: white;
+    margin-left: 105px;
+    padding-top: 5px;
+}
+
+#ConfigCPF{
+    float: left;
+    color: white;
+    margin-left: 70px;
+    padding-top: 5px;
+}
+
+#ConfigRG{
+    float: left;
+    color: white;
+    margin-left: 30px;
+    padding-top: 5px;
+}
+
+#ConfigDIG{
+    float: left;
+    color: white;
+    margin-left: 130px;
+    padding-top: 5px;
+}
+
+#ConfigEstadoEmisor{
+   float: left;
+    color: white;
+    margin-left: 98px;
+    padding-top: 5px;
+}
+
+/****************************************************/
+/**** Caixas de Textos e ComboBox - CPF, Sexo..  ****/
+/***************************************************/
+#BoxCaixasCPF{
+    width: inherit;
+    height: 30px;
+    padding-top: 20px;
+}
+
+#CaixaTexNasc{
+    width: 200px;
+    height: 30px;
+    float: left;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+    margin-left: 20px;
+    
+}                                     
+
+#Sexo{
+     width: 100px;
+    height: 30px;
+    float: left;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+    margin-left: 20px;
+}
+
+#CaixaTexCPF{
+    width: 250px;
+    height: 30px;
+    float: left;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+    margin-left: 20px;
+}
+
+#CaixaTexRG{
+    width: 150px;
+    height: 30px;
+    float: left;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+    margin-left: 20px;
+}
+
+#CaixaTexDig{
+    width: 120px;
+    height: 30px;
+    float: left;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+    margin-left: 20px;
+}
+
+#EstadoEmisor{
+    width: 250px;
+    height: 30px;
+    float: left;
+    border: 0 none;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+    margin-left: 20px;
+}
+
+/********************************/
+/*****  Parte dos Contatos  *****/
+/********************************/
+
+/*************Titulos***********/
+
+#CaixaContatos{
+     width: inherit;
+    height: 100px;
+    background-color:#e8e297;
+}
+
+#ConfigTel{
+    float: left;
+    color: white;
+    margin-left: 20px;
+    padding-top: 5px;
+}
+
+#ConfigCel{
+    float: left;
+    color: white;
+    margin-left: 240px;
+    padding-top: 5px;
+}
+
+#ConfigEmail{
+    float: left;
+    color: white;
+    margin-left: 244px;
+    padding-top: 5px;
+}
+
+/***************************************************/
+/***** Caixas de texto - Contatos: Tel. Cel.. *****/
+/**************************************************/
+
+/* ComboBoxs e Caixas de Textos*/
+
+#BoxCaixasContatos{
+    width: inherit;
+    height: 30px;
+    padding-top: 20px;
+}
+
+#CaixaTextTel{
+    width: 300px;
+    height: 30px;
+    float: left;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+    margin-left: 20px;
+}
+
+#CaixaTextCel{
+    width: 300px;
+    height: 30px;
+    float: left;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+    margin-left: 20px;
+}
+
+#CaixaTextEmail{
+    width: 550px;
+    height: 30px;
+    float: left;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+    margin-left: 20px;
+}
+
+/***********************************/
+/***** Dados Complementares   *****/
+/*********************************/
+
+/* Titulos */
+
+#BoxCaixasEscolaridade{
+    width: inherit;
+    height: 30px;
+    padding-top: 20px;
+}
+
+#ConteinerDadosCom{
+    width:inherit;
+    height: 200px;
+   
+   
+}
+
+#CaixaEscolaridade{
+    width: inherit;
+    height: 100px;
+    background-color:#e8e297;
+}
+
+#ConfigEscol{
+    float: left;
+    color: white;
+    margin-left: 20px;
+    padding-top: 5px;
+}
+
+#ConfigEnsino{
+    float: left;
+    color: white;
+    margin-left: 100px;
+    padding-top: 5px;
+}
+
+#ConfigConhecimento{
+    float: left;
+    color: white;
+    margin-left: 230px;
+    padding-top: 5px;
+}
+
+/* ComboBox */
+
+#ComboBoxEscol{
+    width: 200px;
+    height: 30px;
+    float: left;
+    border: 0 none;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+    margin-left: 20px; 
+}
+
+#ComboBoxEnsino{
+    width: 350px;
+    height: 30px;
+    float: left;
+    border: 0 none;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+    margin-left: 20px;
+}
+
+#ComboBoxConhecimento{
+    width: 600px;
+    height: 30px;
+    float: left;
+    border: 0 none;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+    margin-left: 20px;
+}
+
+/*******************************/
+/**** Possui deficiência ?  ****/
+/*******************************/
+
+#BoxCaixaDeficiencia{
+    width: inherit;
+    height: 30px;
+    padding-top: 20px;
+}
+
+#CaixaDeficiencia{
+    width: inherit;
+    height: 100px;
+    background-color: #e8e297;
+}
+
+#ConfigDeficiencia{
+    float: left;
+    color: white;
+    margin-left: 20px;
+    padding-top: 5px;
+}
+
+#ConfigEtnia{
+    float: left;
+    color: white;
+    margin-left: 110px;
+    padding-top: 5px;
+}
+
+#ConfigRedeDeEnsino{
+    float: left;
+    color: white;
+    margin-left: 310px;
+    padding-top: 5px;
+}
+
+/* ComboBox */
+
+#ComboBoxPossuiDeficiencia{
+    width: 250px;
+    height: 30px;
+    float: left;
+    border: 0 none;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+    margin-left: 20px; 
+}
+
+#ComboBoxEtnia{
+    width: 350px;
+    height: 30px;
+    float: left;
+    border: 0 none;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+    margin-left: 20px; 
+}
+
+#ComboBoxRedeDeEnsino{
+    width: 450px;
+    height: 30px;
+    float: left;
+    border: 0 none;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+    margin-left: 20px; 
+}
+
+/********************/
+/****  Botão    ****/
+/******************/
+
+#FundoBotao{
+    width:inherit;
+    height: 200px;
+   
+   
+}
+
+#botao{
+    width: 200px;
+    height:40px;
+    border: black solid 3px; ;
+    background-color: cornflowerblue;
+    text-align: center;
+    margin-left: 550px;
+    margin-top: 60px;
+    float: left;
+    cursor: pointer;
+}
+
+#botao:hover{
+    border: white solid 3px;
+    background-color: crimson;
+    transition: 1s;
+    color: white;
+}

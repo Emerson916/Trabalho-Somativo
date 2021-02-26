@@ -1,0 +1,500 @@
+/**********/
+/* RESET */
+/*********/
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a:link, a:visited, a:active {
+    color: #000000;
+	text-decoration:none;
+   
+}
+
+a:hover {
+	text-decoration: none; 
+	color:#000000; 
+	
+}
+
+h1{
+    width: inherit;
+    height: 100px;
+    
+    font-family: verdana;
+    font-size: 2.9em;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    
+    padding-top: 40px;
+    padding-left: 100px;
+}
+
+h3{
+    width: inherit;
+    font-family: verdana;
+    font-size: 2em;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-left: 100px;
+    margin-top: 100px;
+
+}
+
+h4{
+    width: inherit;
+    font-family: verdana;
+    font-size: 1.7em;
+    text-transform: uppercase;
+   
+    padding-left: 70px;
+    margin-top: 40px;
+}
+
+h5{
+    width: inherit;
+    font-family: verdana;
+    font-size: 1.3em;
+    text-transform: uppercase;
+   
+    padding-left: 70px;
+    margin-top: 40px; 
+}
+
+p{
+    
+   
+    height: auto;
+    overflow: hidden;
+    font-family: verdana;
+    font-size: 1em;
+  
+}
+
+.conteudo{
+    width: 1300px;
+    height: inherit;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#containerMenu{
+    width: inherit;
+    height: 50px;
+  
+    z-index: 999;
+    position: fixed;
+   
+}
+/***************/
+/*Área da logo*/
+/***************/
+
+#logo{
+    width: 150px;
+    height: inherit;
+    background-color: crimson;
+    float: left;
+}
+/***************/
+/*Área do Menu*/
+/***************/
+#menu{
+    width: 1000px;
+    height: inherit;
+    background-color: #1474b8;
+    float: left;
+    
+    
+}
+
+#listaMenu{
+    width: inherit;
+    height: inherit;
+    margin-left: 75px;
+    
+}
+
+.itensMenu{
+    width: 160px;
+    height: inherit;
+    color: #000000;
+    font-family: verdana;
+    font-size: 1.1em;
+    text-align: center;
+    text-transform: uppercase;
+    list-style: none;
+    float: left;
+    padding-top: 13px;
+    margin-left:15px;;
+ 
+
+}
+
+.itensMenu:hover{
+    background-color: #ffffff;
+    transition: 1s;
+    cursor: pointer;
+    color: #000000;
+}
+/**********/
+/*SUB MENU*/
+/**********/
+
+#subMenu{
+    width: inherit;
+    height: inherit;
+
+    display: none;
+    margin-top: 15px;
+    
+}
+
+#subMenuItem2:hover{
+    background-color: #ffffff;
+    transition: 1s;
+    cursor: pointer;
+    color: #000000;
+}
+
+#subMenuItem:hover{
+    background-color: #ffffff;
+    transition: 1s;
+    cursor: pointer;
+    color: #000000;
+}
+
+#subMenuItem{
+    width: 200px;
+    height: 60px;
+    color: #000000;
+    font-family: verdana;
+    font-size: 0.8em;
+    text-align: left;
+    text-transform: uppercase;
+    list-style: none;
+    float: left;
+    background-color: #1474b8;
+    
+    padding-top: 15px;
+    padding-left: 10px;
+    
+    color: #ffffff;
+}
+
+#subMenuItem2{
+    width: 200px;
+    height: 50px;
+    color: #000000;
+    font-family: verdana;
+    font-size: 0.8em;
+    text-align: left;
+    text-transform: uppercase;
+    list-style: none;
+    float: left;
+    background-color: #1474b8;
+    
+    padding-top: 20px;
+    padding-left: 10px;
+    
+    color: #ffffff;
+}
+
+.itensMenu:hover > #subMenu{
+    display: block;
+}
+
+/***********************/
+/*Área das rede Sociais*/
+/***********************/
+
+#redeSociais{
+    width: 150px;
+    height: inherit;
+    
+    float: left;
+}
+
+.redesSociaisItem{
+    width: 47px;
+    height: inherit;
+    background-color: crimson;
+    float: left;
+    
+    margin-left: 3px;
+}
+
+/**************/
+/*Espaço menu*/
+/************/
+
+#espacoMenu{
+    width: inherit;
+    height: 50px;
+}
+
+
+/*******************************/
+/* Área das informções do curso*/
+/*******************************/
+
+#containerInformacoes{
+    width: inherit;
+    height: 1400px;
+    
+    background-color: #e8e297;
+    
+}
+
+#resumo{
+    width: 600px;
+    height: 250px;
+    
+    margin-left: 100px;
+    margin-top: 40px;
+    
+   
+}
+
+#requisitos{
+    width: 600px;
+    height: 220px;
+    
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+#listaRequisitos{
+    list-style: none;
+    width: inherit;
+    min-height: 20px;
+    height: auto;
+    overflow: hidden;
+    font-family: verdana;
+    font-size: 1em;
+}
+
+.intens{
+    margin-top: 7px;
+}
+
+#conteudos{
+    width: 600px;
+    height: 220px;
+    
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+#listaConteudo{
+    list-style: none;
+    width: inherit;
+    min-height: 20px;
+    height: auto;
+    overflow: hidden;
+    font-family: verdana;
+    font-size: 1em;
+}
+
+#containerFichaTecnica{
+    width: 100px;
+    height: 100px;
+   
+    
+    float: left;
+}
+
+#caixaEsquerda{
+    width: 730px;
+    height: inherit;
+    float: left;
+}
+
+#caixaDireita{
+    width: 490px;
+    height: 650px;
+    float: left;
+    border: #000000 solid 3px;
+    
+    margin-left: 55px;
+    margin-top: 150px;
+}
+
+#fichaTecnica{
+    width: inherit;
+    font-family: verdana;
+    font-size: 1.7em;
+    text-transform: uppercase;
+
+    padding-left: 70px;
+    margin-top: 20px;
+    
+}
+
+#textoCargaHoraria{
+    width: 380px;
+    height: 80px;
+    padding-left: 70px;
+    margin-top: 20px;
+  
+}
+
+#textoContatos{
+    width: 380px;
+    height: 100px;
+    
+    padding-left: 70px; 
+    padding-top: 10px;
+    font-size: 1.2em;
+}
+
+#caixaInscricao{
+    width: 400px;
+    height: 100px;
+    
+    border: #000000 solid 2px;
+    
+    text-align: center;
+    font-size: 3.2em;
+    font-family: verdana;
+    
+    padding-top: 15px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+
+/****************************/
+/* Configurações do Rodapé */
+/***************************/
+ 
+#CaixaPrincipalRodape{
+    width:inherit;
+    height: 300px;
+
+}
+ 
+#CaixaSecundariaRodape{
+    width:inherit;
+    height:inherit;
+    background-color: #1474b8;
+}
+ 
+.CaixasRodape{
+    width: 431px;
+    height:inherit;
+    background-color: #1474b8; 
+    float: right;
+    margin-bottom: 10px;
+}
+ 
+.linha{
+     height: 200px;
+     border-right: 3px solid black;
+     float: right;
+     margin-top: 50px;
+
+}
+ 
+/****************************/
+/****** Redes Sociais ******/
+/***************************/
+ 
+#RedesSociais{
+    width:160px;
+    height:25px;
+
+    margin-top: 60px;
+    
+    font-family: verdana;
+    text-align: center; 
+    font-size: 1.2em;
+    color: #ffffff;
+}
+ 
+.FotoRedeSocial{
+    width:30px;
+    height:30px;
+    background-color: crimson;    
+    float:left;
+    margin-left: 18px;
+    margin-top: 10px;
+
+}
+ 
+#centralizacao{
+    margin-left: 125px;
+}
+ 
+/****************************/
+/******** Contatos **********/
+/****************************/
+.Contatos{
+    width:250px;
+    height: 25px;
+   
+    margin-top: 28px;
+    margin-left: 100px;
+    
+  font-family: verdana;
+    text-align: center; 
+    font-size: 1em;
+    color: #ffffff;
+}
+ 
+/*******************************/
+/* Nome, logo, e alguns textos */
+/******************************/
+ 
+#NomeRodape{
+    width: 200px;
+    height: 25px;
+
+    margin-top: 10px;
+    margin-left: 120px;
+    
+     font-family: verdana;
+    text-align: center; 
+    font-size: 1.4em;
+    color: #ffffff;
+}
+ 
+#textoComico{
+    width: 300px;
+    height: 20px;
+   
+    margin-top: 20px;
+    margin-left: 65px;
+    
+     font-family: verdana;
+    text-align: center; 
+    font-size: 1em;
+    color: #ffffff;
+}
+ 
+#LogoRodape{
+    width: 320px;
+    height: 120px;
+    background-color: crimson;    
+    margin-top: 30px;
+    margin-left: 55px;
+}
+ 
+#Reservado{
+    width: 320px;
+    height: 20px;
+  
+    margin-top: 35px;
+    margin-left: 55px;
+    
+     font-family: verdana;
+    text-align: center; 
+    font-size: 1em;
+    color: #ffffff;
+}

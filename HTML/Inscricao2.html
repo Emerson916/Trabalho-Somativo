@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>
+            IANES - EscolaVItual
+        </title>
+         <meta name="vieport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <link type="text/css" href="CSS/inscricao2Style.css" rel="stylesheet">
+    </head>
+    <body>  
+         <!-- Seção do menu/Cabeçalho -->
+        <header id="conteinerMenu">
+            <div class="conteudo"> 
+                <div id="logo">
+                    <div id="logoIanes">
+                    
+                    </div>
+                </div>
+
+               <div id="nome">
+                   <h3>
+                    PROCESSO
+                    SELETIVO
+                   </h3>
+               </div>
+            </div>
+        </header>
+
+        <!-- Conteudo -->
+
+        <div class="Titulos"><h2>Primeira Opção de Curso</h2></div>
+
+
+
+
+             <div class="conteudo">
+                <div id="CaixaDeFundoUM">
+
+                    <!-- Titulos - Unidade, Curso, Turno -->
+
+                   <div id="CaixaComboBox">
+                        <div class="ConteinerTitulo">
+                            <div id="TituloComboBox"><h3>Unidade*:</h3></div>
+                            <div id="TituloComboBox2"><h3>Curso*:</h3></div>
+                            <div id="TituloComboBox3"><h3>Turno*:</h3></div>
+                        </div>
+
+                        <div id="ContainerComboBox">
+
+                            <!-- ComboBox - Escolaridade -->
+
+                            <div class="ComboBox">
+                                <select id="Escolar" name="Escolaridade" >
+                                    
+                                    <option value="Vazio">
+                                        Selecione
+                                    </option>
+                                        
+                                    <option value="esc" >
+                                        Ianes - EscolaVirtual
+                                    </option>
+
+                                    <option value="Outro" selected="selected" >
+                                        Outros
+                                    </option>
+
+                                    
+                                </select>
+                            </div>
+
+                            <!-- ComboBox - Cursos -->
+
+                            <div class="ComboBox">
+                                 <select id="Cursos" name="Curso" >
+
+                                    <option value="Vazio" >
+                                     Selecione
+                                     </option>
+
+                                    <option value="htmt" >
+                                        HTML
+                                    </option>
+
+                                    <option value="css" selected="selected" >
+                                        CSS
+                                    </option>
+
+                                    <option value="me" > Sistemas Operacionais</option>
+                                </select>
+                            </div>
+
+                           <!-- ComboBox - Turno --> 
+
+                            <div class="ComboBox">
+                                  <select id="Turno" name="periodo" >
+
+                                    <option value="Vazio" >
+                                      Selecione
+                                      </option>
+
+                                    <option value="htmt" >
+                                        Diurno
+                                    </option>
+
+                                    <option value="css" selected="selected" >
+                                        Noturno
+                                    </option>
+
+                                </select>
+                            </div>
+                        </div>
+                   </div>
+                </div>
+            </div>
+
+        <!-- Final da Parte de "Primeira opção de Curso" -->
+
+
+        <!-- Inicio da Parte de "Dados Pessoais" -->
+
+            <div class="Titulo">
+               <h2>Dados Pessoais</h2>
+            </div>
+
+            <div class="conteudo">
+                <div id="ContainerCaixasDeDados">
+
+                    <!-- Parte do "NOME" -->
+
+                    <div id="CaixaNome">
+                        <div class="ConteinerTitulo">
+                            <div id="ConfigNome">
+                                <h3>Nome*:</h3>
+                            </div>
+                        </div>
+
+                        <div id="boxTexName">
+                            <input id="CaixaDeTexto" type="text">
+                        </div>
+
+                    </div>
+
+                    <!-- Parte do Endereço : "cep" , "numero" etc..-->
+
+                    <div id="CaixaEndereco">
+
+                            <div class="ConteinerTitulo">
+                                <div id="ConfigEnd">
+                                    <div id="ConfigCEP"><h3>CEP*:</h3></div>
+                                    <div id="ConfigEn"><h3>Endereço*:</h3></div>
+                                    <div id="ConfigNum"><h3>Número*:</h3></div>
+                                </div>
+                            </div>
+
+                                <div id="boxTextEnd">
+                                    <div>  <input id="CaixaTextCEP" type="text"> </div>
+                                    <div>  <input id="CaixaTextEnd" type="text"> </div>
+                                    <div>  <input id="CaixaTextNum" type="text"> </div>
+                                </div>
+
+
+                    </div>
+                    
+                        <!-- Complemento, bairro, cidade, e Estado -->
+                    
+                            <div id="CaixaComplemento">
+                                <div class="ConteinerTitulo">
+                                    <div id="ConfigComple">
+                                        <h3>
+                                        Complemento*:
+                                        </h3>
+                                    </div>
+                                    
+                                    <div id="ConfigBairro">
+                                        <h3>
+                                        Bairro*:
+                                        </h3>
+                                    </div>
+                                    
+                                    <div id="ConfigCity">
+                                        <h3>
+                                        Cidade*:
+                                        </h3>
+                                    </div>
+                                    
+                                    <div id="ConfigEstado">
+                                        <h3>
+                                        Estado*:
+                                        </h3>
+                                    </div>
+                                    
+                                </div>
+                                
+                                <!-- Caixas de Textos - Complemento -->
+                                
+                                <div id="BoxTextComple">
+                                    <div>
+                                    <input id="CaixaTexComple" type="text">
+                                    </div>
+                                    
+                                    <div>
+                                    <input id="CaixaTexBairro" type="text">
+                                    </div>
+                                    
+                                    <div>
+                                    <input id="CaixaTexCity" type="text">
+                                    </div>
+                                    
+                                    <div id="ComboBoxEstado">
+                                        <select id="Estados" name="Est" >
+
+                                    <option value="vazio" >
+                                    Selecione        
+                                    </option>
+
+                                    <option value="Acre">
+                                        Acre
+                                    </option>
+
+                                    <option value="Alagoas">
+                                        Alagoas
+                                    </option>
+                                            
+                                    <option value="Amapa">
+                                        Amapá
+                                    </option>
+                                            
+                                    <option value="AM">
+                                        Amazonas
+                                    </option>
+                                            
+                                    <option value="BA">
+                                        Bahia
+                                    </option>
+                                            
+                                     <option value="CE">
+                                        Ceará
+                                    </option>
+                                    
+                                     <option value="DF">
+                                        Distrito Federal
+                                    </option>
+                                            
+                                     <option value="ES">
+                                        Espírito Santo
+                                    </option>
+                                            
+                                     <option value="GO">
+                                        Goiás
+                                    </option>
+                                            
+                                     <option value="MA">
+                                        Maranhão
+                                    </option>
+                                            
+                                     <option value="MT">
+                                        Mato Grosso
+                                    </option>
+                                            
+                                     <option value="MS">
+                                        Mato Grosso do Sul
+                                    </option>
+                                            
+                                     <option value="MG">
+                                        Minas Gerais
+                                    </option>
+                                            
+                                     <option value="PA">
+                                        Pará
+                                    </option>
+                                            
+                                     <option value="PB">
+                                        Paraíba
+                                    </option>
+                                            
+                                     <option value="PR">
+                                        Paraná
+                                    </option> 
+                                            
+                                    <option value="PE">
+                                        Pernambuco
+                                    </option> 
+                                            
+                                    <option value="PI">
+                                        Piauí
+                                    </option> 
+                                            
+                                    <option value="RJ">
+                                        Rio de Janeiro
+                                    </option> 
+                                            
+                                    <option value="RN">
+                                        Rio Grande do Norte
+                                    </option> 
+                                            
+                                    <option value="RS">
+                                        Rio Grande do Sul
+                                    </option> 
+                                            
+                                    <option value="RO">
+                                        Rondônia
+                                    </option> 
+                                            
+                                    <option value="RR">
+                                        Roraima
+                                    </option> 
+                                            
+                                    <option value="SC">
+                                        Santa Catarina
+                                    </option>
+                                            
+                                     <option value="SP">
+                                        São Paulo
+                                    </option>
+                                            
+                                     <option value="SE">
+                                        Sergipe
+                                    </option>
+                                            
+                                     <option value="TO">
+                                        Tocantins
+                                    </option>        
+                                               
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                    <!-- Final da parte dos Complementos-->
+                    
+                    <!-- Parte do CPF, sexo, RG ..etc -->
+
+                            <div id="CaixaCPF">
+                                <div class="ConteinerTitulo">
+                                    
+                                  <div id="ConfigNasc">
+                                  <h3>Data de Nasc.:</h3>  
+                                  </div>
+                                    
+                                  <div id="ConfigSexo">
+                                  <h3>Sexo*:</h3>  
+                                  </div>
+                                    
+                                  <div id="ConfigCPF">
+                                  <h3>CPF*: (Somente os Números)</h3>  
+                                  </div>
+                                    
+                                  <div id="ConfigRG">
+                                  <h3>RG*:</h3>  
+                                  </div>
+                                    
+                                  <div id="ConfigDIG">
+                                  <h3>Dig.:</h3>  
+                                  </div>
+                                    
+                                  <div id="ConfigEstadoEmisor">
+                                  <h3>Estado Emissor*:</h3>
+                                  </div>
+                                    
+                                </div>
+                                    
+                    <!-- Parte dos Titulos finalizado -->
+                                    
+                    <!-- Parte das ComboBox e texts -->                
+                                    <div id="BoxCaixasCPF">
+                                        <div >
+                                        <input id="CaixaTexNasc" type="text">
+                                        </div>
+                                        
+                                        <div>
+                                         <select id="Sexo" name="Est" >
+
+                                    <option value="Vazio" >
+                                    Selecione         
+                                    </option>
+
+                                    <option value="htmt">
+                                       Fem.
+                                    </option>
+
+                                    <option value="css" selected="selected" >
+                                        Masc.
+                                    </option>
+
+                                        </select>
+                                        </div>
+                                        
+                                        <div>
+                                        <input id="CaixaTexCPF" type="text">
+                                        </div>
+                                        
+                                        <div>
+                                        <input id="CaixaTexRG" type="text">
+                                        </div>
+                                        
+                                        <div>
+                                        <input id="CaixaTexDig" type="text">
+                                        </div>
+                                        
+                                        <div>
+                                         <select id="EstadoEmisor" name="Est" >
+
+                                    <option value="Vazio" >
+                                    Selecione         
+                                    </option>
+
+                                    <option value="EstadoEmissor">
+                                        Estado 1
+                                    </option>
+
+                                    <option value="EstadoEmissor2" selected="selected" >
+                                        Estado 2
+                                    </option>
+
+                                        </select>
+                                        </div>
+                                    </div>
+                                
+                            </div>
+                    
+                    <!-- Parte do Telefone, Celular e Email-->
+                            <div id="CaixaContatos">
+                                <div class="ConteinerTitulo">
+                                    <div id="ConfigTel">
+                                        <h3>
+                                        Telefone*:
+                                        </h3>
+                                    </div>
+                                    
+                                    <div id="ConfigCel">
+                                        <h3>
+                                        Celular*:
+                                        </h3>
+                                    </div>
+                                    
+                                    <div id="ConfigEmail">
+                                        <h3>
+                                        E-mail*:
+                                        </h3>
+                                    </div>
+                                </div>
+                                
+                                <div id="BoxCaixasContatos">
+                                    <div>
+                                     <input id="CaixaTextTel" type="text">
+                                    </div>
+                                    
+                                    <div>
+                                        <input id="CaixaTextCel" type="text">
+                                    </div>
+                                    
+                                    <div>
+                                        <input id="CaixaTextEmail" type="text">
+                                    </div>
+                                </div>
+                            </div>
+                </div>
+            </div>
+        
+        <!-- Final dos Dados Pessoais-->
+        
+        <!-- Dados Complementares ** Inicio -->
+        
+         <div class="Titulo">
+            <h2>Dados Complementares</h2>
+        </div>
+        
+        <!-- Parte da escolaridade ** Titulos-->
+        <div class="conteudo">
+            <div id="ConteinerDadosCom">
+                <div id="CaixaEscolaridade">
+                    <div class="ConteinerTitulo">
+                        <div id="ConfigEscol">
+                            <h3>
+                            Escolaridade*:
+                            </h3>
+                        </div>
+                                    
+                        <div id="ConfigEnsino">
+                            <h3>
+                            Rede de Ensino*:
+                            </h3>
+                        </div>
+                                    
+                        <div id="ConfigConhecimento">
+                            <h3>
+                            Como tomou conhecimento do Curso ?
+                            </h3>
+                        </div>
+                    </div>
+                                
+                    <div id="BoxCaixasEscolaridade">
+                        <div>
+                            <select id="ComboBoxEscol" name="Est" >
+
+                                <option value="Vazio" >
+                                Selecione
+                                </option>
+
+                                <option value="Ensino Médio">
+                                    Ensino Médio
+                                </option>
+
+                                <option value="Ensino Fundamental" >
+                                    Ensino Fundamental
+                                </option>
+                                
+                                 <option value="Cursando outro curso">
+                                    Cursando outro curso
+                                </option>
+                                
+                            </select>
+                        </div>
+                                    
+                        <div>
+                           <select id="ComboBoxEnsino" name="Est" >
+
+                            <option value="Vazio" >
+                            Selecione   
+                            </option>
+
+                            <option value="Public">
+                                Publica
+                            </option>
+
+                            <option value="Estad" >
+                                Estadual
+                            </option>
+                               
+                             <option value="Particular" >
+                                Particular
+                            </option>
+                               
+                            
+                            </select>
+                        </div>
+                                    
+                        <div>
+                            <select id="ComboBoxConhecimento" name="Est" >
+
+                                <option value="vazio" >
+                                Selecione
+                                </option>
+
+                                <option value="net">
+                                    Pela internet
+                                </option>
+
+                                <option value="Amigo" >
+                                    Por um amigo
+                                </option> 
+                                
+                                <option value="Planfeto" >
+                                    Planfeto
+                                </option>
+                                
+                                <option value="parente" >
+                                    Por um parente
+                                </option>
+
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                
+    <!-- Titulos : Possui deficiencia, Etnia e Rede de Ensino -->
+                
+                 <div id="CaixaDeficiencia">
+                    <div class="ConteinerTitulo">
+                        <div id="ConfigDeficiencia">
+                            <h3>
+                            Possui Deficiência ?
+                            </h3>
+                        </div>
+                                    
+                        <div id="ConfigEtnia">
+                            <h3>
+                            Etnia*:
+                            </h3>
+                        </div>
+                                    
+                        <div id="ConfigRedeDeEnsino">
+                            <h3>
+                            Situação Ocupacional*:
+                            </h3>
+                        </div>
+                    </div>
+                                
+                    <div id="BoxCaixaDeficiencia">
+                        <div>
+                            <select id="ComboBoxPossuiDeficiencia" name="Est" >
+
+                                <option value="Vazio" >
+                                Selecione
+                                </option>
+
+                                <option value="n">
+                                    Não Possuo
+                                </option>
+
+                                <option value="s" >
+                                    Sim, Possuo
+                                </option>
+
+                            </select>
+                        </div>
+                                    
+                        <div>
+                           <select id="ComboBoxEtnia" name="Est" >
+
+                            <option value="Vazio" >Selecione</option>
+
+                            <option value="Nativo">
+                                Nativo
+                            </option>
+
+                            <option value="branco" >
+                                Branco
+                            </option>
+                               
+                            <option value="nego" >
+                                Negro
+                            </option> 
+                               
+                            <option value="pardo" >
+                                Pardo
+                            </option>
+                               
+                            <option value="OlhoFechado"  >
+                                Asiatico
+                            </option>   
+
+                            </select>
+                        </div>
+                                    
+                        <div>
+                            <select id="ComboBoxRedeDeEnsino" name="Est" >
+
+                                <option value="Vazio" >
+                                Selecione
+                                </option>
+
+                                <option value="Desempregado">
+                                    Desempregado
+                                </option>
+
+                                <option value="Trabalhando" >
+                                  Empregado
+                                </option>
+                                
+                                 <option value="Preocurando o 1° Emprego" >
+                                  Preocurando o 1° Emprego
+                                </option>
+                                
+                                 
+
+                            </select>
+                        </div>
+                    </div>
+                </div>
+       
+            </div>
+        </div>
+        
+        <!-- Botão  -->
+        <div id="FundoBotao">
+            
+            <div id="botao">
+                <h1>Inscrever-se</h1>
+            </div>
+            
+        </div>
+        
+        
+        
+    </body>
+</html>

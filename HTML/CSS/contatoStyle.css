@@ -1,0 +1,564 @@
+/**********/
+/* RESET */
+/*********/
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a:link, a:visited, a:active {
+    color: #000000;
+	text-decoration:none;
+   
+}
+
+a:hover {
+	text-decoration: none; 
+	color:#000000; 
+	
+}
+
+a:hover {
+	text-decoration: none; 
+	color:#000000; 
+	
+}
+
+h1{
+    width: inherit;
+    height: 50px;
+    background-color: #51adbd;
+    font-family: verdana;
+    font-size: 1.5em;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-top: 10px;
+    padding-left: 10px;
+    
+
+}
+
+h3{
+    width: inherit;
+    font-family: verdana;
+    font-size: 1.1em;
+   
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+p{
+    width: inherit;
+    min-height: 20px;
+    height: auto;
+    overflow: hidden;
+    font-family: verdana;
+    font-size: 1em;
+    line-height: 1.1;
+}
+
+.conteudo{
+    width: 1300px;
+    height: inherit;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#containerMenu{
+    width: inherit;
+    height: 50px;
+  
+    z-index: 999;
+    position: fixed;
+   
+}
+/***************/
+/*Área da logo*/
+/***************/
+
+#logo{
+    width: 150px;
+    height: inherit;
+    background-image: url(../IMAGENS/ianes.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin-top: 5px;
+    margin-left: 10px;
+   
+}
+/***************/
+/*Área do Menu*/
+/***************/
+#menu{
+    width: inherit;
+    height: inherit;
+    background-color: #1474b8;
+    float: left;
+    
+    
+}
+
+#listaMenu{
+    width: inherit;
+    height: inherit;
+    margin-left: 260px;
+    
+}
+
+.itensMenu{
+    width: 160px;
+    height: inherit;
+    color: #000000;
+    font-family: verdana;
+    font-size: 1.1em;
+    text-align: center;
+    text-transform: uppercase;
+    list-style: none;
+    float: left;
+    padding-top: 13px;
+    margin-left:15px;;
+    color: #000000;
+
+}
+
+
+.itensMenu:hover{
+    background-color: #ffffff;
+    transition: 1s;
+    cursor: pointer;
+    color: #000000;
+}
+/**********/
+/*SUB MENU*/
+/**********/
+
+#subMenu{
+    width: inherit;
+    height: inherit;
+
+    display: none;
+    margin-top: 15px;
+    
+}
+
+#subMenuItem2:hover{
+    background-color: #ffffff;
+    transition: 1s;
+    cursor: pointer;
+    color: #000000;
+}
+
+#subMenuItem:hover{
+    background-color: #ffffff;
+    transition: 1s;
+    cursor: pointer;
+    color: #000000;
+}
+
+#subMenuItem{
+    width: 200px;
+    height: 60px;
+    color: #000000;
+    font-family: verdana;
+    font-size: 0.8em;
+    text-align: left;
+    text-transform: uppercase;
+    list-style: none;
+    float: left;
+    background-color: #1474b8;
+    
+    padding-top: 15px;
+    padding-left: 10px;
+    
+    color: #ffffff;
+}
+
+#subMenuItem2{
+    width: 200px;
+    height: 50px;
+    color: #000000;
+    font-family: verdana;
+    font-size: 0.8em;
+    text-align: left;
+    text-transform: uppercase;
+    list-style: none;
+    float: left;
+    background-color: #1474b8;
+    
+    padding-top: 20px;
+    padding-left: 10px;
+    
+    color: #ffffff;
+}
+
+.itensMenu:hover > #subMenu{
+    display: block;
+}
+
+/***********************/
+/*Área das rede Sociais*/
+/***********************/
+/*
+#redeSociais{
+    width: 150px;
+    height: inherit;
+    background-color: beige;
+    float: left;
+}
+/*
+.redesSociaisItem{
+    width: 47px;
+    height: inherit;
+    background-color: crimson;
+    float: left;
+    
+    margin-left: 3px;
+}
+*/
+/**************/
+/*Espaço menu*/
+/************/
+
+#espacoMenu{
+    width: inherit;
+    height: 50px;
+}
+
+/********************************/
+/* Texto "Voce esta com duvida?"*/
+/********************************/
+#Duvidas{
+    width:inherit;
+    height: 80px;
+    background-color: #51adbd;
+    
+}
+
+.Personalizar{
+  padding-top: 25px;
+  text-align: center;
+  font-family: verdana;
+    
+}
+
+.centralizar{
+  padding-top: 15px;
+  text-align: center;
+  font-family: verdana;
+    
+}
+
+#EntrarEmContato{
+    width:inherit;
+    height: 50px;
+    background-color: #1474b8;
+}
+
+/******************************/
+/* Icones e Textos de contato */
+/******************************/
+
+#CaixaPrincipal{
+    width:inherit;
+    height: 400px;
+    background-color: #e8e297;
+    box-sizing: border-box;
+}
+
+.CaixaSecundaria{
+    width:250px;
+    height:400px;
+    background-color: #51adbd;
+    float: left;
+    margin-left: 150px;
+    padding-top: 10px;
+}
+
+.CaixaIcon{
+    width:100px;
+    height:100px;
+    background-color: crimson;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+#IconEmail{
+    width: 100px;
+    height: 100px;
+    background-image: url(../IMAGENS/IconEmail.png);
+     
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+#IconTelefone{
+    width: 100px;
+    height: 100px;
+    background-image: url(../IMAGENS/TelefoneIcon.png);
+     
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+#IconContato{
+    width: 100px;
+    height: 100px;
+    background-image: url(../IMAGENS/whatsapp%20logo2.png);
+     
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+
+.Titulo{
+    width:inherit;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.Mensagem{
+    width:inherit;
+    height: 50px;
+   text-align: center;
+    padding-top: 10px;
+    font-family: verdana;
+    font-size: 0.8em;
+}
+
+.contato{
+    width:inherit;
+    height: 60px;
+   text-align: center;
+    padding-top: 20px; 
+    margin-top: 20px;
+    font-family: verdana;
+}
+
+/*************************************/
+/******* Parte de Localização  *******/
+/*************************************/
+
+#CaixaDoTitulo{
+    width:inherit;
+    height: 50px;
+    background-color: #1474b8;
+  
+}
+
+#CaixaPrincipalMapa{
+    width:inherit;
+    height: 350px;
+    background-color: #e8e297;
+}
+
+.CaixaSecundariaMapa{
+    width:350px;
+    height:inherit;
+    float: left;
+    
+}
+
+
+#mapa{
+    width:350px;
+    height: inherit;
+    background-color: crimson;
+    margin-left: 10px;
+}
+
+.textos{
+    width:330px;
+    height: 50px;
+    background-color: #51adbd;
+    margin-left: 20px;
+    padding-top: 10px;
+    margin-top: 5px;
+    font-family: verdana;
+}
+
+/********************/
+/***** Rodapé  *****/
+/******************/
+
+
+/****************************/
+/* Configurações do Rodapé */
+/***************************/
+ 
+#CaixaPrincipalRodape{
+    width:inherit;
+    height: 300px;
+
+}
+ 
+#CaixaSecundariaRodape{
+    width:inherit;
+    height:inherit;
+    background-color: #1474b8;
+}
+ 
+.CaixasRodape{
+    width: 431px;
+    height:inherit;
+    background-color: #1474b8; 
+    float: right;
+    margin-bottom: 10px;
+}
+ 
+.linha{
+     height: 200px;
+     border-right: 3px solid black;
+     float: right;
+     margin-top: 50px;
+
+}
+ 
+/****************************/
+/****** Redes Sociais ******/
+/***************************/
+ 
+#RedesSociais{
+    width:160px;
+    height:25px;
+
+    margin-top: 60px;
+    
+    font-family: verdana;
+    text-align: center; 
+    font-size: 1.2em;
+    color: #ffffff;
+    
+    margin-left: 65px;
+}
+ 
+#FotoRedeSocial1{
+    width:70px;
+    height:70px;
+    background-image: url(../IMAGENS/face.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    float:left;
+    margin-left: 18px;
+    margin-top: 10px;
+}
+
+#FotoRedeSocial2{
+    width:70px;
+    height:70px;
+    background-image: url(../IMAGENS/twitter.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    float:left;
+    margin-left: 18px;
+    margin-top: 10px;
+    
+}
+
+#FotoRedeSocial3{
+    width:70px;
+    height:70px;
+    background-image: url(../IMAGENS/insta.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    float:left;
+    margin-left: 18px;
+    margin-top: 10px;
+}
+ 
+#centralizacao{
+    margin-left: 80px;
+}
+
+.seguir{
+    margin-top: 70px;
+    margin-left: 5px;
+}
+ 
+/****************************/
+/******** Contatos **********/
+/****************************/
+.Contatos{
+    width:250px;
+    height: 25px;
+   
+    margin-top: 28px;
+    margin-left: 100px;
+    
+  font-family: verdana;
+    text-align: center; 
+    font-size: 1em;
+    color: #ffffff;
+}
+ 
+/*******************************/
+/* Nome, logo, e alguns textos */
+/******************************/
+ 
+#NomeRodape{
+    width: 200px;
+    height: 25px;
+
+    margin-top: 10px;
+    margin-left: 120px;
+    
+     font-family: verdana;
+    text-align: center; 
+    font-size: 1.4em;
+    color: #ffffff;
+}
+ 
+#textoComico{
+    width: 300px;
+    height: 20px;
+   
+    margin-top: 20px;
+    margin-left: 65px;
+    
+     font-family: verdana;
+    text-align: center; 
+    font-size: 1em;
+    color: #ffffff;
+}
+ 
+#LogoRodape{
+    width: 320px;
+    height: 120px;
+    background-image: url(../IMAGENS/ianes.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    margin-top: 30px;
+    margin-left: 55px;
+}
+ 
+#Reservado{
+    width: inherit;
+    height: 20px;
+  
+    margin-top: 35px;
+    margin-left: 55px;
+    
+     font-family: verdana;
+    
+    font-size: 1em;
+    color: #ffffff;
+}
+
